@@ -40,3 +40,8 @@ Each user have a profile photo, you'll find theses pics in ./static/profiles/{{u
 The "times" array mean : send a SMS after 60 seconds, another after 120 seconds, etc.
 
 Password and login are for the SMS notification service I use.
+
+
+### Add another way for notification (other SMS notification provider, or maybe email, homing pigeon... Anything you want)
+Edit sendMessageTo function (that's on the top of ```main.js```)
+(And send me the modification !)
