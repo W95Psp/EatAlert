@@ -1,0 +1,14 @@
+{
+	"message": {
+		"content": "We're eating ! To confirm, please visit the link below :\n",
+		"urlBase": "http://address-where-you-host-that.ext/"
+	},
+	"times": [60, 120, 180, 210, 234, 253, 270, 288],
+	"users": [
+		{"name": "Lola",	"login": 12345678,	"pwd": "AaBbCcddee3fgg"},
+		{"name": "Bob",		"login": 12345678,	"pwd": "AaBbCc4deeffgg"},
+		{"name": "Jade",	"login": 12345678,	"pwd": "AaBbCcd44effgg"},
+		{"name": "Louis",	"login": 12345678,	"pwd": "AaB23456eeffgg"}
+	],
+	"language": "en"
+}

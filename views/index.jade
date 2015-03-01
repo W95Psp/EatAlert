@@ -1,0 +1,20 @@
+html(ng-app='app')
+	head
+		meta(name="viewport", content="width=device-width")
+		title #{language.title}
+		script(src='/static/angular.min.js')
+		script(src='/static/script.js')
+		script(src='/static/jquery.js')
+		link(href='http://fonts.googleapis.com/css?family=Open+Sans:300', rel='stylesheet', type='text/css')
+		link(rel="stylesheet", type="text/css", href='/static/style.css')
+	body(ng-controller='main', ng-init='users = '+users+';calling = "";')
+		h1(ng-click='noDelete()')
+			img(src='/static/icons/eat.png')
+			span #{language.title}
+		div#content
+			div.user(ng-repeat='user in users', ng-if='user.disabled!=true', state='{{user.state}}', style='background-image: url("/static/profiles/{{user.name}}.jpg");', ng-click='pleaseTryDelete(user)')
+				img.confirm(src='/static/icons/confirm.png', ng-if='user.state=="ok"')
+				img.delete(src='/static/icons/delete.png', ng-if='user.wantDelete', ng-click='delUser(user)')
+		div#call(state='{{calling}}', ng-click='safeCall()')
+			img(src='/static/icons/call.png')
+			span #{language.call}

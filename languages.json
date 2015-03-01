@@ -1,0 +1,12 @@
+{
+	"fr": {
+		"title": "On mange !",
+		"call" : "Appeler !",
+		"checked": "Validé !"
+	},
+	"en": {
+		"title": "We're eating!",
+		"call" : "Call!",
+		"checked": "Checked!"
+	}
+}

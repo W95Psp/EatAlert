@@ -1,0 +1,12 @@
+html(ng-app='app')
+	head
+		meta(name="viewport", content="width=device-width")
+		title #{language.title}
+		link(href='http://fonts.googleapis.com/css?family=Open+Sans:300', rel='stylesheet', type='text/css')
+		link(rel="stylesheet", type="text/css", href='/static/style.css')
+	body(ng-controller='main', ng-init='users = '+users+';calling = "";')
+		h1
+			img(src='/static/icons/eat.png')
+			span #{language.title}
+		div(style='font-size: 30px; margin-top: 30%; text-align: center;')
+			| #{language.checked}
