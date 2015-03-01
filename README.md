@@ -21,19 +21,22 @@ Edit '''configuration.json''' :)
 Each user have a profile photo, you'll find theses pics in ./static/profiles/{{username}}.jpg
 
 ### Example of conf file
-'''{
+```
+{
     "message": {
         "content": "We're eating ! To confirm, please visit the link below :\n",
         "urlBase": "http://address-where-you-host-that.ext/"
     },
-    "times": [60, 120, 180, 210, 234, 253, 270, 288],   //This array mean : send a SMS after 60 seconds, another after 120 seconds, etc.
+    "times": [60, 120, 180, 210, 234, 253, 270, 288],
     "users": [
-        //Password and login are for the SMS notification service I use
-        //Sample :
         {"name": "Lola",    "login": 12345678,  "pwd": "AaBbCcddee3fgg"},
         {"name": "Bob",     "login": 12345678,  "pwd": "AaBbCc4deeffgg"},
         {"name": "Jade",    "login": 12345678,  "pwd": "AaBbCcd44effgg"},
         {"name": "Louis",   "login": 12345678,  "pwd": "AaB23456eeffgg"}
     ],
     "language": "en"
-}'''
+}
+```
+The "times" array mean : send a SMS after 60 seconds, another after 120 seconds, etc.
+
+Password and login are for the SMS notification service I use.
