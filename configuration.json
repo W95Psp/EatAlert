@@ -10,5 +10,6 @@
 		{"name": "Jade",	"login": 12345678,	"pwd": "AaBbCcd44effgg"},
 		{"name": "Louis",	"login": 12345678,	"pwd": "AaB23456eeffgg"}
 	],
+	"port": 8080,
 	"language": "en"
 }
