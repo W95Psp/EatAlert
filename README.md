@@ -1,15 +1,15 @@
-<!--- title EatAlert --->
+<!--- title EatAlert -->
 # EatAlert
 SMS (or whatever you want) alert to notify people that dinner is beginning
 ## Why ?
-<!--- en --->
+<!--- en -->
 At home, my parents used to shout "We're eating" each time we was eating in family.
 The fact is that sometimes, the communication isn't really perfect, and it's really boring.
 
 (My ears were bored, in fact)
 
 So I had this idea : instead of shouting loudly, why can't we just send a SMS ?
-<!--- /en --->
+<!--- /en -->
 
 ## How
 I did a small NodeJS application to warn people and ask them whether they understood we're eating. People receive an SMS, giving a link to say "Ok, I understood, wait two minutes, I'll be there".
