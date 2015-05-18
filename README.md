@@ -4,7 +4,7 @@ SMS (or whatever you want) alert to notify people that dinner is beginning
 ## Why ?
 <!--- en -->
 At home, my parents used to shout "We're eating" each time we was eating in family.
-The fact is that sometimes, the communication isn't really perfect, and it's really boring.
+The fact is that sometimes, the communication wasn't really perfect, and it was really boring.
 
 (My ears were bored, in fact)
 
